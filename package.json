@@ -1,0 +1,38 @@
+{
+  "name": "urban-spa-booking",
+  "version": "1.0.0",
+  "private": true,
+  "description": "urban-spa-booking",
+  "author": "hajirasajjad",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "jest"
+  },
+  "proxy": "https://storage.googleapis.com/urban-technical",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.1.2",
+    "babel-jest": "^27.2.4",
+    "babel-plugin-styled-components": "^1.13.2",
+    "babel-preset-gatsby": "^1.14.0",
+    "gatsby": "^3.13.1",
+    "gatsby-plugin-antd": "^2.2.0",
+    "gatsby-plugin-styled-components": "^4.14.0",
+    "gatsby-source-rest-api": "^0.2.3",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.2.4",
+    "jest-fetch-mock": "^3.0.3",
+    "jest-transform-file": "^1.1.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-test-renderer": "^17.0.2",
+    "styled-components": "^5.3.1"
+  }
+}
